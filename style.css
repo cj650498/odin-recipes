@@ -1,6 +1,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Merriweather&family=Quicksand&display=swap');
 
 img {
+    width: 300px;
+    height: auto;
     border-radius: 5%;
     box-shadow: 8px 5px 5px lightgray;
 }
