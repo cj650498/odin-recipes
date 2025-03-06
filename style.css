@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Merriweather&family=Quicksand&display=swap');
+
 img {
     border-radius: 5%;
     box-shadow: 8px 5px 5px lightgray;
@@ -12,4 +14,13 @@ img {
     border-radius: 5px;
     font-size: 16px;
     text-align: center;
+}
+
+* {
+    font-family: "Merriweather", serif;
+}
+
+li {
+    font-family: "Quicksand", sans-serif;
+    font-size: 16px;
 }
