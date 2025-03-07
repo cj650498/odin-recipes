@@ -1,10 +1,14 @@
-@import url('https://fonts.googleapis.com/css2?family=Merriweather&family=Quicksand&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Merriweather&family=Quicksand:wght@400;700&display=swap');
 
 img {
     width: 300px;
     height: auto;
     border-radius: 5%;
     box-shadow: 8px 5px 5px lightgray;
+}
+
+h1, h2, p, .home-button {
+    font-family: "Merriweather", serif;
 }
 
 .home-button {
@@ -16,10 +20,6 @@ img {
     border-radius: 5px;
     font-size: 16px;
     text-align: center;
-}
-
-* {
-    font-family: "Merriweather", serif;
 }
 
 li {
