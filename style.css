@@ -1,14 +1,26 @@
 @import url('https://fonts.googleapis.com/css2?family=Merriweather&family=Quicksand:wght@400;700&display=swap');
 
 img {
+    display: block;
     width: 300px;
     height: auto;
     border-radius: 2%;
     box-shadow: 8px 5px 5px lightgray;
+    margin: 0 auto;
 }
 
-h1, h2, p, .home-button {
-    font-family: "Merriweather", serif;
+a {
+    text-decoration: none;
+}
+
+h1 {
+    text-align: center;
+}
+
+li {
+    font-family: "Quicksand", sans-serif;
+    font-size: 16px;
+    margin: 8px;
 }
 
 .home-button {
@@ -22,11 +34,24 @@ h1, h2, p, .home-button {
     text-align: center;
 }
 
-li {
-    font-family: "Quicksand", sans-serif;
-    font-size: 16px;
+p {
+    margin: 0.5em;
+    line-height: 1.6em;
 }
 
-a {
-    text-decoration: none;
+h1, h2, p, .home-button, ul a {
+    font-family: "Merriweather", serif;
+}
+
+ul ul,
+ol ul {
+    list-style: none;
+    padding-left: 0px; 
+}
+
+ul a {
+    display: block;
+    line-height: 2em;
+    color: black;
+    text-decoration: underline;
 }
